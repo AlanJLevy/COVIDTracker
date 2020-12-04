@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Quarantine Information" max_length="40" name="x_wmata_covidtrack_quarantine" sizeclass="2" text_index="true" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Encounter" mandatory="true" max_length="32" name="encounter" reference="x_wmata_covidtrack_encounter" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Information" max_length="40" name="information" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Physician Ordering Quarantine" max_length="100" name="physician_ordering_quarantine" type="string"/>
+        <element label="Reason for Elective Quarantine" max_length="10000" name="reason_for_elective_quarantine" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Received Medical Documentation" max_length="40" name="received_medical_documentation" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Travel End Date" max_length="40" name="travel_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Travel Location" max_length="100" name="travel_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Travel Start Date" max_length="40" name="travel_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Physician Ordered Quarantine" sequence="10" value="physician"/>
+                <element inactive_on_update="false" label="Elective Quarantine" sequence="20" value="elective"/>
+                <element inactive_on_update="false" label="Travel Quarantine" sequence="30" value="travel"/>
+                <element inactive_on_update="false" label="OHAW Ordered Quarantine" sequence="40" value="ohaw"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="encounter"/>
+        </index>
+    </element>
+</database>

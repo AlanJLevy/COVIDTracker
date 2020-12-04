@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Encounter" max_length="40" name="x_wmata_covidtrack_encounter" sizeclass="2" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Have you been contacted by a health department?" max_length="40" name="contacted_by_health_department" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Symptoms Started" max_length="40" name="date_symptoms_started" type="glide_date"/>
+        <element label="Employee" mandatory="true" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee Work Location" max_length="255" name="employee_work_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Contact Date" max_length="40" name="first_contact_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="First Contact Method" max_length="100" name="first_contact_method" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Follow up Task" max_length="10000" name="follow_up_task" type="string"/>
+        <element choice="1" label="Health Status" max_length="50" name="health_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Asymptomatic" sequence="10" value="asymptomatic"/>
+                <element inactive_on_update="false" label="Reporting Symptoms" sequence="20" value="symptomatic"/>
+                <element inactive_on_update="false" label="Decline to say" sequence="30" value="decline"/>
+                <element inactive_on_update="false" label="Third Party Reporting" sequence="40" value="third_party"/>
+                <element inactive_on_update="false" label="Unknown" sequence="50" value="unknown"/>
+                <element inactive_on_update="false" label="Positive COVID Test Reported" sequence="60" value="positive_COVID"/>
+            </choice>
+        </element>
+        <element label="Last Day Worked On Site" max_length="40" name="last_day_worked_on_site" type="glide_date"/>
+        <element label="Last Day Work Information" max_length="10000" name="last_day_work_information" type="string"/>
+        <element attributes="encode_utf8=false" label="OHAW Triage Staff Member" max_length="32" name="ohaw_triage_staff_member" reference="sys_user" type="reference"/>
+        <element label="COVID-19 Diagnosis" max_length="40" name="potential_covid_19_case" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Recovery Location" max_length="40" name="recovery_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reporting Agency" max_length="100" name="reporting_agency" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Symptoms" max_length="10000" name="symptoms" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Symptom Severity" max_length="40" name="symptom_severity" type="string"/>
+        <element label="Tested" max_length="40" name="tested" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Date WMATA Confirmed Positive Results" max_length="40" name="wmata_notification_of_positive_results" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="WMATA Work Status" max_length="50" name="wmata_work_status" type="string"/>
+        <element label="Eligible to Work" max_length="40" name="work_eligibility" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Work Status Update Date" max_length="40" name="work_status_update_date" type="glide_date"/>
+    </element>
+</database>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_wmata_covidtrack_encounter" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Encounter - Default view" name="x_wmata_covidtrack_encounter" related_list="NULL" sys_domain="global" view="Default view">fd64438cdb8f1090f0110c65ca9619b5</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_wmata_covidtrack_employee_info.encounters</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-31 00:36:05</sys_created_on>
+            <sys_id>7164438cdb8f1090f0110c65ca9619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-31 00:36:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Encounter - Default view" name="x_wmata_covidtrack_encounter" related_list="NULL" sys_domain="global" view="Default view">fd64438cdb8f1090f0110c65ca9619b5</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_wmata_covidtrack_quarantine.encounter</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-31 00:36:05</sys_created_on>
+            <sys_id>f964438cdb8f1090f0110c65ca9619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-31 00:36:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Encounter - Default view" name="x_wmata_covidtrack_encounter" related_list="NULL" sys_domain="global" view="Default view">fd64438cdb8f1090f0110c65ca9619b5</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_wmata_covidtrack_test_information.encounter</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-31 00:36:05</sys_created_on>
+            <sys_id>7164438cdb8f1090f0110c65ca9619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-31 00:36:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Encounter - Default view" name="x_wmata_covidtrack_encounter" related_list="NULL" sys_domain="global" view="Default view">fd64438cdb8f1090f0110c65ca9619b5</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_wmata_covidtrack_close_contacts.encounter</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-31 00:36:05</sys_created_on>
+            <sys_id>f564438cdb8f1090f0110c65ca9619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-31 00:36:05</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Encounter - Default view</calculated_name>
+            <filter/>
+            <name>x_wmata_covidtrack_encounter</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-31 00:36:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd64438cdb8f1090f0110c65ca9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Encounter - Default view</sys_name>
+            <sys_package display_value="covidtracker" source="x_wmata_covidtrack">c472e000db071090f0110c65ca961996</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="covidtracker">c472e000db071090f0110c65ca961996</sys_scope>
+            <sys_update_name>sys_ui_related_x_wmata_covidtrack_encounter_null</sys_update_name>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-31 00:36:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

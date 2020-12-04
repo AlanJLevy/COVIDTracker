@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Test Information" max_length="40" name="x_wmata_covidtrack_test_information" sizeclass="348" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Documentation Received Date" max_length="40" name="documentation_received_date" type="glide_date"/>
+        <element label="Employee ID" max_length="15" name="employee_id" type="string"/>
+        <element attributes="encode_utf8=false" label="Encounter" max_length="32" name="encounter" reference="x_wmata_covidtrack_encounter" type="reference"/>
+        <element label="First Name" max_length="50" name="first_name" type="string"/>
+        <element label="Last name" max_length="50" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Result Receive Date" max_length="40" name="result_receive_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Submission Type" max_length="40" name="submission_type" type="string"/>
+        <element attributes="encode_utf8=false" label="Submitted by" max_length="32" name="submitted_by" reference="sys_user" type="reference"/>
+        <element label="Testing Appointment ID" max_length="20" name="testing_appointment_id" type="string"/>
+        <element label="Testing Patient ID" max_length="20" name="testing_patient_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Test Date" max_length="40" name="test_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Test Diagnosis" max_length="40" name="test_diagnosis" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Positive" sequence="10" value="positive"/>
+                <element inactive_on_update="false" label="Negative" sequence="20" value="negative"/>
+                <element inactive_on_update="false" label="Waiting for Results" sequence="30" value="waiting"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="submitted_by"/>
+        </index>
+        <index name="index2">
+            <element name="test_date"/>
+        </index>
+        <index name="index3">
+            <element name="encounter"/>
+        </index>
+    </element>
+</database>

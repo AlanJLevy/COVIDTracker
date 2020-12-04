@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Close Contacts">3b8ffac4db8f1090f0110c65ca96195b</application>
+        <filter/>
+        <name>Close Contacts</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_wmata_covidtrack.close_contacts_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>E026706</sys_created_by>
+        <sys_created_on>2020-08-31 00:14:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b38ffac4db8f1090f0110c65ca96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Close Contacts</sys_name>
+        <sys_package display_value="covidtracker" source="x_wmata_covidtrack">c472e000db071090f0110c65ca961996</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covidtracker">c472e000db071090f0110c65ca961996</sys_scope>
+        <sys_update_name>sys_ui_module_b38ffac4db8f1090f0110c65ca96195e</sys_update_name>
+        <sys_updated_by>E026706</sys_updated_by>
+        <sys_updated_on>2020-08-31 00:14:55</sys_updated_on>
+        <table>x_wmata_covidtrack_close_contacts</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

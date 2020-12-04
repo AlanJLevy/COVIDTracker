@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Test Information" language="en" table="x_wmata_covidtrack_test_information">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Test Information</label>
+            <language>en</language>
+            <name>x_wmata_covidtrack_test_information</name>
+            <plural>Test Informations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 13:54:08</sys_created_on>
+            <sys_id>6671f048db471090f0110c65ca96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Test Information</sys_name>
+            <sys_package display_value="covidtracker" source="x_wmata_covidtrack">c472e000db071090f0110c65ca961996</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="covidtracker">c472e000db071090f0110c65ca961996</sys_scope>
+            <sys_update_name>sys_documentation_x_wmata_covidtrack_test_information__en</sys_update_name>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 13:54:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

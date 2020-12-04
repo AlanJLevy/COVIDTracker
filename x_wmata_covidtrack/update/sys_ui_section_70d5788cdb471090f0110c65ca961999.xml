@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="70d5788cdb471090f0110c65ca961999" sys_domain="global" table="x_wmata_covidtrack_employee_info" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee</element>
+            <position>0</position>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:30:45</sys_created_on>
+            <sys_id>6597c100dbc71090f0110c65ca96196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wmata_covidtrack_employee_info" sys_domain="global" view="Default view">70d5788cdb471090f0110c65ca961999</sys_ui_section>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:30:45</sys_created_on>
+            <sys_id>e997c100dbc71090f0110c65ca96196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wmata_covidtrack_employee_info" sys_domain="global" view="Default view">70d5788cdb471090f0110c65ca961999</sys_ui_section>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dob</element>
+            <position>2</position>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:30:45</sys_created_on>
+            <sys_id>6197c100dbc71090f0110c65ca961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wmata_covidtrack_employee_info" sys_domain="global" view="Default view">70d5788cdb471090f0110c65ca961999</sys_ui_section>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>union_code</element>
+            <position>3</position>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:30:45</sys_created_on>
+            <sys_id>e597c100dbc71090f0110c65ca961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wmata_covidtrack_employee_info" sys_domain="global" view="Default view">70d5788cdb471090f0110c65ca961999</sys_ui_section>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:30:45</sys_created_on>
+            <sys_id>6d97c100dbc71090f0110c65ca961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wmata_covidtrack_employee_info" sys_domain="global" view="Default view">70d5788cdb471090f0110c65ca961999</sys_ui_section>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>age</element>
+            <position>5</position>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:30:45</sys_created_on>
+            <sys_id>e197c100dbc71090f0110c65ca961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wmata_covidtrack_employee_info" sys_domain="global" view="Default view">70d5788cdb471090f0110c65ca961999</sys_ui_section>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:30:45</sys_created_on>
+            <sys_id>6997c100dbc71090f0110c65ca961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wmata_covidtrack_employee_info" sys_domain="global" view="Default view">70d5788cdb471090f0110c65ca961999</sys_ui_section>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>7</position>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:30:45</sys_created_on>
+            <sys_id>ed97c100dbc71090f0110c65ca961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wmata_covidtrack_employee_info" sys_domain="global" view="Default view">70d5788cdb471090f0110c65ca961999</sys_ui_section>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contact_method</element>
+            <position>8</position>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:30:45</sys_created_on>
+            <sys_id>6597c100dbc71090f0110c65ca961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wmata_covidtrack_employee_info" sys_domain="global" view="Default view">70d5788cdb471090f0110c65ca961999</sys_ui_section>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:30:45</sys_created_on>
+            <sys_id>e997c100dbc71090f0110c65ca961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wmata_covidtrack_employee_info" sys_domain="global" view="Default view">70d5788cdb471090f0110c65ca961999</sys_ui_section>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>home_phone</element>
+            <position>10</position>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:30:45</sys_created_on>
+            <sys_id>6197c100dbc71090f0110c65ca961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wmata_covidtrack_employee_info" sys_domain="global" view="Default view">70d5788cdb471090f0110c65ca961999</sys_ui_section>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mobile_phone</element>
+            <position>11</position>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:30:45</sys_created_on>
+            <sys_id>e597c100dbc71090f0110c65ca961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wmata_covidtrack_employee_info" sys_domain="global" view="Default view">70d5788cdb471090f0110c65ca961999</sys_ui_section>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>12</position>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:30:45</sys_created_on>
+            <sys_id>6d97c100dbc71090f0110c65ca961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wmata_covidtrack_employee_info" sys_domain="global" view="Default view">70d5788cdb471090f0110c65ca961999</sys_ui_section>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:30:45</sys_created_on>
+            <sys_id>e197c100dbc71090f0110c65ca961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wmata_covidtrack_employee_info" sys_domain="global" view="Default view">70d5788cdb471090f0110c65ca961999</sys_ui_section>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_medical_conditions</element>
+            <position>14</position>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:30:45</sys_created_on>
+            <sys_id>6997c100dbc71090f0110c65ca961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wmata_covidtrack_employee_info" sys_domain="global" view="Default view">70d5788cdb471090f0110c65ca961999</sys_ui_section>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>who_lives_with_you</element>
+            <position>15</position>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:30:45</sys_created_on>
+            <sys_id>ed97c100dbc71090f0110c65ca961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wmata_covidtrack_employee_info" sys_domain="global" view="Default view">70d5788cdb471090f0110c65ca961999</sys_ui_section>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:30:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>encounters</element>
+            <position>16</position>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-31 00:33:54</sys_created_on>
+            <sys_id>3de3874cdb8f1090f0110c65ca9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_wmata_covidtrack_employee_info" sys_domain="global" view="Default view">70d5788cdb471090f0110c65ca961999</sys_ui_section>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-31 00:33:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_wmata_covidtrack_employee_info</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 14:13:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70d5788cdb471090f0110c65ca961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_wmata_covidtrack_employee_info</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="covidtracker" source="x_wmata_covidtrack">c472e000db071090f0110c65ca961996</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="covidtracker">c472e000db071090f0110c65ca961996</sys_scope>
+            <sys_update_name>sys_ui_section_70d5788cdb471090f0110c65ca961999</sys_update_name>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 14:13:08</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

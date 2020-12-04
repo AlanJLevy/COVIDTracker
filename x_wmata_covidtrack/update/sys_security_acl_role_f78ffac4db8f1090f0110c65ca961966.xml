@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>E026706</sys_created_by>
+        <sys_created_on>2020-08-31 00:14:55</sys_created_on>
+        <sys_id>f78ffac4db8f1090f0110c65ca961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_wmata_covidtrack_close_contacts.x_wmata_covidtrack.close_contacts_user</sys_name>
+        <sys_package display_value="covidtracker" source="x_wmata_covidtrack">c472e000db071090f0110c65ca961996</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covidtracker">c472e000db071090f0110c65ca961996</sys_scope>
+        <sys_security_acl display_value="x_wmata_covidtrack_close_contacts">778ffac4db8f1090f0110c65ca961961</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_f78ffac4db8f1090f0110c65ca961966</sys_update_name>
+        <sys_updated_by>E026706</sys_updated_by>
+        <sys_updated_on>2020-08-31 00:14:55</sys_updated_on>
+        <sys_user_role display_value="x_wmata_covidtrack.close_contacts_user" name="x_wmata_covidtrack.close_contacts_user">ab8f72c4db8f1090f0110c65ca9619ab</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

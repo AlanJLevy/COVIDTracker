@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (encounter)">b7a2f488db471090f0110c65ca9619e0</button>
+        <item_parameter display_value="encounter description">7fa2f488db471090f0110c65ca9619dc</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>E026706</sys_created_by>
+        <sys_created_on>2020-08-30 13:59:25</sys_created_on>
+        <sys_id>7fa2f488db471090f0110c65ca9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7fa2f488db471090f0110c65ca9619dc</sys_name>
+        <sys_package display_value="covidtracker" source="x_wmata_covidtrack">c472e000db071090f0110c65ca961996</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covidtracker">c472e000db071090f0110c65ca961996</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_7fa2f488db471090f0110c65ca9619e7</sys_update_name>
+        <sys_updated_by>E026706</sys_updated_by>
+        <sys_updated_on>2020-08-30 13:59:25</sys_updated_on>
+        <ui_parameter display_value="Description">3fa2f488db471090f0110c65ca9619e2</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

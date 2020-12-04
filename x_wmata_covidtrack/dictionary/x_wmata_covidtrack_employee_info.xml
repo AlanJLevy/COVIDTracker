@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Employee Information" max_length="40" name="x_wmata_covidtrack_employee_info" sizeclass="1" text_index="true" type="collection">
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Contact Method" max_length="40" name="contact_method" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Home Phone" sequence="10" value="home_phone"/>
+                <element inactive_on_update="false" label="Mobile Phone" sequence="20" value="mobile_phone"/>
+                <element inactive_on_update="false" label="Email" sequence="30" value="email"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="DOB" max_length="40" name="dob" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="255" name="email" type="string"/>
+        <element attributes="encode_utf8=false" label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element label="Encounters" max_length="4000" name="encounters" reference="x_wmata_covidtrack_encounter" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Home Phone" max_length="40" name="home_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mobile Phone" max_length="40" name="mobile_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Do you have other medical conditions" max_length="5000" name="other_medical_conditions" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Union Code" max_length="40" name="union_code" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Non-Rep" sequence="10" value="nrp"/>
+                <element inactive_on_update="false" label="Local 002" sequence="20" value="002"/>
+                <element inactive_on_update="false" label="Local 639" sequence="20" value="639"/>
+                <element inactive_on_update="false" label="Local 689" sequence="20" value="689"/>
+                <element inactive_on_update="false" label="Local 922" sequence="20" value="922"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Who lives with you" max_length="5000" name="who_lives_with_you" type="string"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>

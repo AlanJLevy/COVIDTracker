@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_navigation_tab_map">
+    <sys_sg_navigation_tab_map action="INSERT_OR_UPDATE">
+        <navigation display_value="Mobile Agent">679d4f0653d033002d96ddeeff7b1279</navigation>
+        <navigation_tab display_value="covidtracker">27a230c4db471090f0110c65ca9619bf</navigation_tab>
+        <order>100</order>
+        <sys_class_name>sys_sg_navigation_tab_map</sys_class_name>
+        <sys_created_by>E026706</sys_created_by>
+        <sys_created_on>2020-08-30 13:59:27</sys_created_on>
+        <sys_id>d8b27888db471090f0110c65ca96194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="covidtracker" source="x_wmata_covidtrack">c472e000db071090f0110c65ca961996</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covidtracker">c472e000db071090f0110c65ca961996</sys_scope>
+        <sys_update_name>sys_sg_navigation_tab_map_d8b27888db471090f0110c65ca96194a</sys_update_name>
+        <sys_updated_by>E026706</sys_updated_by>
+        <sys_updated_on>2020-08-30 13:59:27</sys_updated_on>
+    </sys_sg_navigation_tab_map>
+</record_update>

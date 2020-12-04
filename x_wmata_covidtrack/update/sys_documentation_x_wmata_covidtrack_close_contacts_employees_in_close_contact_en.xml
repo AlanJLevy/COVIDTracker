@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="employees_in_close_contact" label="Employees in close contact" language="en" table="x_wmata_covidtrack_close_contacts">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>employees_in_close_contact</element>
+            <help/>
+            <hint/>
+            <label>Employees in close contact</label>
+            <language>en</language>
+            <name>x_wmata_covidtrack_close_contacts</name>
+            <plural>Employees in close contacts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-31 00:15:37</sys_created_on>
+            <sys_id>d2bffec4db8f1090f0110c65ca9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Employees in close contact</sys_name>
+            <sys_package display_value="covidtracker" source="x_wmata_covidtrack">c472e000db071090f0110c65ca961996</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="covidtracker">c472e000db071090f0110c65ca961996</sys_scope>
+            <sys_update_name>sys_documentation_x_wmata_covidtrack_close_contacts_employees_in_close_contact_en</sys_update_name>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-31 00:15:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="Employee Info Item Stream">c8b23888db471090f0110c65ca9619a0</item_stream>
+        <master_item display_value="Employee Info master_item">88b23888db471090f0110c65ca9619a1</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>E026706</sys_created_by>
+        <sys_created_on>2020-08-30 13:59:26</sys_created_on>
+        <sys_id>80b23888db471090f0110c65ca9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="covidtracker" source="x_wmata_covidtrack">c472e000db071090f0110c65ca961996</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covidtracker">c472e000db071090f0110c65ca961996</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_80b23888db471090f0110c65ca9619a2</sys_update_name>
+        <sys_updated_by>E026706</sys_updated_by>
+        <sys_updated_on>2020-08-30 13:59:26</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="last_day_work_information" label="Last Day Work Information" language="en" table="x_wmata_covidtrack_encounter">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>last_day_work_information</element>
+            <help/>
+            <hint/>
+            <label>Last Day Work Information</label>
+            <language>en</language>
+            <name>x_wmata_covidtrack_encounter</name>
+            <plural>Last Day Work Informations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-31 00:09:17</sys_created_on>
+            <sys_id>194ef284db8f1090f0110c65ca961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Last Day Work Information</sys_name>
+            <sys_package display_value="covidtracker" source="x_wmata_covidtrack">c472e000db071090f0110c65ca961996</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="covidtracker">c472e000db071090f0110c65ca961996</sys_scope>
+            <sys_update_name>sys_documentation_x_wmata_covidtrack_encounter_last_day_work_information_en</sys_update_name>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-31 00:09:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

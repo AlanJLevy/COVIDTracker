@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (quarantine)">c0b23888db471090f0110c65ca9619fd</button>
+        <item_parameter display_value="quarantine travel_end_date">ccb23888db471090f0110c65ca9619fa</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>E026706</sys_created_by>
+        <sys_created_on>2020-08-30 13:59:27</sys_created_on>
+        <sys_id>00b27888db471090f0110c65ca961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ccb23888db471090f0110c65ca9619fa</sys_name>
+        <sys_package display_value="covidtracker" source="x_wmata_covidtrack">c472e000db071090f0110c65ca961996</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="covidtracker">c472e000db071090f0110c65ca961996</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_00b27888db471090f0110c65ca961905</sys_update_name>
+        <sys_updated_by>E026706</sys_updated_by>
+        <sys_updated_on>2020-08-30 13:59:27</sys_updated_on>
+        <ui_parameter display_value="Travel End Date">0cb27888db471090f0110c65ca961900</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Close Contacts" max_length="40" name="x_wmata_covidtrack_close_contacts" sizeclass="1" type="collection">
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Employees in close contact" max_length="4000" name="employees_in_close_contact" reference="sys_user" type="glide_list"/>
+        <element label="Encounter" mandatory="true" max_length="32" name="encounter" reference="x_wmata_covidtrack_encounter" type="reference"/>
+        <element label="Location" max_length="100" name="location" type="string"/>
+        <index name="index">
+            <element name="encounter"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="union_code" table="x_wmata_covidtrack_employee_info" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>union_code</element>
+            <name>x_wmata_covidtrack_employee_info</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:43:48</sys_created_on>
+            <sys_id>b09a89c0dbc71090f0110c65ca961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>union_code</sys_name>
+            <sys_package display_value="covidtracker" source="x_wmata_covidtrack">c472e000db071090f0110c65ca961996</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="covidtracker">c472e000db071090f0110c65ca961996</sys_scope>
+            <sys_update_name>sys_choice_x_wmata_covidtrack_employee_info_union_code</sys_update_name>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:43:48</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>union_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non-Rep</label>
+            <language>en</language>
+            <name>x_wmata_covidtrack_employee_info</name>
+            <sequence>10</sequence>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:43:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a8a8104dbc71090f0110c65ca961922</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:45:29</sys_updated_on>
+            <value>nrp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>union_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Local 002</label>
+            <language>en</language>
+            <name>x_wmata_covidtrack_employee_info</name>
+            <sequence>20</sequence>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:43:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f9a8104dbc71090f0110c65ca961925</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:44:02</sys_updated_on>
+            <value>002</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>union_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Local 639</label>
+            <language>en</language>
+            <name>x_wmata_covidtrack_employee_info</name>
+            <sequence>20</sequence>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:44:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97aa0504dbc71090f0110c65ca961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:44:14</sys_updated_on>
+            <value>639</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>union_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Local 689</label>
+            <language>en</language>
+            <name>x_wmata_covidtrack_employee_info</name>
+            <sequence>20</sequence>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:44:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2dba0104dbc71090f0110c65ca961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:44:23</sys_updated_on>
+            <value>689</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>union_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Local 922</label>
+            <language>en</language>
+            <name>x_wmata_covidtrack_employee_info</name>
+            <sequence>20</sequence>
+            <sys_created_by>E026706</sys_created_by>
+            <sys_created_on>2020-08-30 15:44:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27ba4504dbc71090f0110c65ca96193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>E026706</sys_updated_by>
+            <sys_updated_on>2020-08-30 15:44:31</sys_updated_on>
+            <value>922</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
