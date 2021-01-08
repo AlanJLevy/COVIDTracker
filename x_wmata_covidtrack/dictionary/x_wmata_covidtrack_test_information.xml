@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Test Information" max_length="40" name="x_wmata_covidtrack_test_information" sizeclass="348" text_index="true" type="collection">
+    <element label="Test Information" max_length="40" name="x_wmata_covidtrack_test_information" sizeclass="351" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Documentation Received Date" max_length="40" name="documentation_received_date" type="glide_date"/>
         <element label="Employee ID" max_length="15" name="employee_id" type="string"/>
         <element attributes="encode_utf8=false" label="Encounter" max_length="32" name="encounter" reference="x_wmata_covidtrack_encounter" type="reference"/>
@@ -19,6 +19,7 @@
                 <element inactive_on_update="false" label="Waiting for Results" sequence="30" value="waiting"/>
             </choice>
         </element>
+        <element label="Test Facility" max_length="100" name="test_facility" type="string"/>
         <index name="index">
             <element name="submitted_by"/>
         </index>
